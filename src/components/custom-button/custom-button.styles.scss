@@ -13,7 +13,9 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
-
+  text-align: justify;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   &:hover {
     background-color: white;
     color: black;
